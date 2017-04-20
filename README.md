@@ -11,3 +11,6 @@ To open an existing test plan, run `jmeter -t YOUR-TEST-PLAN.jmx`
 
 ---
 
+To run an existing test plan in non-GUI mode, run `jmeter -t YOUR-TEST-PLAN.jmx -n -l reports.jtl`
+
+---
