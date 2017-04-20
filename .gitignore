@@ -1,3 +1,4 @@
 _book/
 jmeter.log
 *.jmx
+*.jtl
