@@ -23,4 +23,6 @@ To change the property jmeterengine.stopfail.system.exit, use one of these metho
 * \<JMETER INSTALLATION\>/user.properties (override jmeter.properties)
 * jmeter -Jjmeterengine.stopfail.system.exit=true ... (override user.properties)
 
+\<JMETER INSTALLATION> e.g., /usr/local/Cellar/jmeter/2.13/libexec/bin in my case.
+
 ---
