@@ -13,6 +13,8 @@ To open an existing test plan, run `jmeter -t YOUR-TEST-PLAN.jmx`
 
 To run an existing test plan in non-GUI mode, run `jmeter -t YOUR-TEST-PLAN.jmx -n -l reports.jtl`
 
+Results are appended in the file `reports.jtl` if running multiple times.
+
 If the property jmeterengine.stopfail.system.exit is set to true (default is false), then JMeter will invoke System.exit(1) if it cannot stop all threads. Normally this is not necessary.
 
 To change the property jmeterengine.stopfail.system.exit, use one of these methods:
