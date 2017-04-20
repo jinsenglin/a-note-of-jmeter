@@ -7,6 +7,15 @@ Two files are created in the current working directory when running `jmeter` com
 
 ---
 
+To open English version GUI editor
+
+```
+export JVM_ARGS="-Duser.language=en -Duser.region=EN"
+jmeter
+```
+
+---
+
 To open an existing test plan, run `jmeter -t YOUR-TEST-PLAN.jmx`
 
 ---
