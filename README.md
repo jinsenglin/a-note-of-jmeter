@@ -6,3 +6,8 @@ Two files are created in the current working directory when running `jmeter` com
 * jmeter.log
 
 ---
+
+To open an existing test plan, run `jmeter -t YOUR-TEST-PLAN.jmx`
+
+---
+
