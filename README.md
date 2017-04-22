@@ -28,8 +28,8 @@ If the property jmeterengine.stopfail.system.exit is set to true (default is fal
 
 To change the property jmeterengine.stopfail.system.exit, use one of these methods:
 
-* \<JMETER INSTALLATION\>/jmeter.properties
-* \<JMETER INSTALLATION\>/user.properties (override jmeter.properties)
+* \<JMETER INSTALLATION>/jmeter.properties
+* \<JMETER INSTALLATION>/user.properties (override jmeter.properties)
 * jmeter -Jjmeterengine.stopfail.system.exit=true ... (override user.properties)
 
 \<JMETER INSTALLATION> e.g., /usr/local/Cellar/jmeter/2.13/libexec/bin in my case.
